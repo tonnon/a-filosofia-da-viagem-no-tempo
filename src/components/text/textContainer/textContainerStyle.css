@@ -1,0 +1,10 @@
+main {
+    margin: 20px auto;
+    width: 90%;
+    color: #c8daed;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    backdrop-filter: blur(50px);
+    box-shadow: 5px 10px 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
