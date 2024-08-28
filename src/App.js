@@ -1,9 +1,15 @@
-import Wormhole from './components/wormhole/Wormhole'
+import React from 'react';
+import Wormhole from './components/wormhole/Wormhole';
+import Header from './components/header/Header';
 
-import './App.css'
+import './App.css';
+
 const App = () => {
   return (
-    <Wormhole />
+    <div>
+      <Header />
+      <Wormhole />
+    </div>
   );
 };
 
