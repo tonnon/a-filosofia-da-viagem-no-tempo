@@ -1,4 +1,5 @@
 import React from 'react';
+import TextCard from '../textCard/TextCard';
 
 import './textContainerStyle.css';
 
@@ -37,10 +38,10 @@ export default function TextContainer() {
     return (
         <main>
             {texts.map((text) => (
-                <section key={text.title}>
-                    <h2>{text.title}</h2>
-                    <p>{text.content}</p>
-                </section>
+                <TextCard
+                    title={text.title}
+                    content={text.content}
+                />
             ))}
         </main>
     )
